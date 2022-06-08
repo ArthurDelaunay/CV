@@ -1,34 +1,66 @@
 @font-face {
-    font-family: "VisbyCFRegular";
-    src: url("../fonts/VisbyCF-regular.otf")
+    font-family: "RalewayBold";
+    src: url("../fonts/Raleway/Raleway-Bold.ttf");
+}
+@font-face {
+    font-family:"RalewayMedium";
+    src: url("../fonts/Raleway/Raleway-Medium.ttf");
+}
+@font-face {
+    font-family:"RalewayLight";
+    src: url("../fonts/Raleway/Raleway-Light.ttf");
 }
 
 body {
     display: flex;
-    /* font-family: "VisbyCFRegular"; */
+    justify-content: space-between;
+    font-family: "RalewayMedium";
 }
 a {
     text-decoration: none;
 }
 aside {
     background-color: rgb(225,225,240);
+    width: 35vw;
+    padding-left: 35px;
+    padding-top: 45px;
+}
+main {
+    margin-left: 35px;
+    padding-top: 45px;
+    line-height: 1.5em;
 }
 h1 {
     font-size: 32px;
     color: rgb(5,63,136);
+    margin-bottom: 5px;
 }
 
 h2 {
     font-size: 35px;
+    font-family: "RalewayBold";
     color: rgb(87,132,187);
+    margin-bottom: 10px;
 }
 
 h3 {
     font-size: 28px;
+    font-family: "RalewayBold";
     color: rgb(20,94,194)
 }
 
 h4 {
     font-size: 20px;
     color: black;
+}
+
+.marginBottom {
+    margin-bottom: 5px;
+}
+.blueGrey {
+    color: rgb(122,130,151);
+}
+
+.paddingTop {
+    padding-top: 30px;
 }
