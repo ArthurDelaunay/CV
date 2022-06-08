@@ -26,7 +26,7 @@ a {
 aside {
     background-color: rgb(225,225,240);
     width: 35vw;
-    padding-left: 35px;
+    padding-left: 15px;
     padding-top: 45px;
     line-height: 2em;
 }
@@ -42,42 +42,51 @@ article {
     margin-left: 30px;
 }
 
+address {
+    margin-left: 10px;
+}
+
 h1 {
     font-size: 32px;
     color: rgb(5,63,136);
     margin-bottom: 5px;
 }
-
 h2 {
     font-size: 35px;
     font-family: "RalewayBold";
     color: rgb(87,132,187);
     margin-bottom: 10px;
 }
-
 h3 {
     font-size: 28px;
     font-family: "RalewayBold";
-    color: rgb(20,94,194)
-}
+    color: rgb(20,94,194);
+    margin-top: 30px;
 
+}
 h4 {
     font-size: 18px;
     font-family: "RalewayBold";
     color: black;
     margin-top: 20px;
 }
-
 ul { 
     margin-left: 20px;
-
 }
+progress {
+    accent-color: rgb(165,95,206);
+    width: 18vw;
+}
+
 .bulletPoint {
     list-style-type: square;
 }
-
+/* Gestion Couleurs */
 .blueGrey {
     color: rgb(122,130,151);
+}
+.blueGrey2{
+    color: rgb(87,132,187);
 }
 .lightBlue {
     color: rgb(114,188,238);
@@ -85,17 +94,26 @@ ul {
 .grey {
     color: rgb(92, 92, 92);
 }
+/* gestion Marges */
 .marginBottom5 {
     margin-bottom: 5px;
 }
-
 .marginBottom20 {
     margin-bottom: 20px;
 }
-
+.marginTop20 {
+    margin-top: 20px;
+}
+.marginTop30{
+    margin-top: 30px;
+}
 .paddingTop30 {
     padding-top: 30px;
 }
+.noMarge {
+    margin-left: 0px;
+}
+
 .boldFont {
     font-family: "RalewayBold";
 }
@@ -103,3 +121,14 @@ ul {
     margin-top: -0.235ex;
     vertical-align: middle;
 }
+/* .borderLeft {
+    border-left: 1px solid black;
+} */
+
+/*article::before {
+    content: "●";
+    color: black;
+    position: relative;
+    right: 36px;
+    top: 43px;
+}*/
