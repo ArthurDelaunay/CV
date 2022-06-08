@@ -1,0 +1,34 @@
+@font-face {
+    font-family: "VisbyCFRegular";
+    src: url("../fonts/VisbyCF-regular.otf")
+}
+
+body {
+    display: flex;
+    /* font-family: "VisbyCFRegular"; */
+}
+a {
+    text-decoration: none;
+}
+aside {
+    background-color: rgb(225,225,240);
+}
+h1 {
+    font-size: 32px;
+    color: rgb(5,63,136);
+}
+
+h2 {
+    font-size: 35px;
+    color: rgb(87,132,187);
+}
+
+h3 {
+    font-size: 28px;
+    color: rgb(20,94,194)
+}
+
+h4 {
+    font-size: 20px;
+    color: black;
+}
